@@ -31,7 +31,9 @@ defmodule Conekta.CustomerFindResponse do
             livemode: nil,
             corporate: nil,
             created_at: nil,
-            object: nil
+            object: nil,
+            default_payment_source_id: nil,
+            payment_sources: nil
 end
 
 defmodule Conekta.Customer do
